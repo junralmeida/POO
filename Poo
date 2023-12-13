@@ -1,0 +1,26 @@
+class Aluno(): 
+    
+    def __init__(self, nome): 
+        self.nome = nome
+        self.notas = 0
+
+
+    def nota (self, notas):
+        self.notas
+
+    def media_final(self, media):
+        if self.notas > media :
+            print (self.nome ,"Aprovado")
+
+        else:
+            print(self.nome, "Reprovado" )
+
+aluno1 = Aluno ("Junior")
+aluno1.nota(8)
+aluno1.media_final(6)
+
+aluno2 = Aluno ("Amarildo")
+aluno2.nota(5)
+aluno2.media_final(6)
+
+    
